@@ -1,0 +1,22 @@
+{
+  "name": "videoanalyser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.27",
+    "electron": "^33.2.0"
+  },
+  "dependencies": {
+    "@ffprobe-installer/ffprobe": "^2.1.2",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.3"
+  }
+}
